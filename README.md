@@ -107,7 +107,7 @@
 
 ### `04` — Results
 
-![Voice Gender Classification — SVM (RBF) Before & After Tuning](outputs/results.png)
+![Voice Gender Classification — SVM (RBF) Before & After Tuning](outputs/model_evaluation_enhanced.png)
 
 ---
 
@@ -123,6 +123,7 @@
 | **SVM (RBF) + GridSearch ★** | **0.9768** | `████████████████████████████████████████████` |
 
 > AUC-ROC after tuning: **0.9948** — near-perfect discrimination
+> ![Voice Gender Classification — Visual Model comparison](outputs/model_comparison_zoomed.png)
 
 ---
 
@@ -193,9 +194,6 @@ gender-classification-ai/
 │
 ├── 📊 outputs/
 │   └── results.png                # Confusion matrix + ROC + model comparison
-│
-├── 📄 report/
-│   └── research_proposal.pdf      # 2-page AI research proposal
 │
 ├── requirements.txt
 ├── README.md
