@@ -123,7 +123,8 @@
 | **SVM (RBF) + GridSearch ★** | **0.9768** | `████████████████████████████████████████████` |
 
 > AUC-ROC after tuning: **0.9948** — near-perfect discrimination
-> ![Voice Gender Classification — Visual Model comparison](outputs/model_comparison_zoomed.png)
+
+![Voice Gender Classification — Visual Model comparison](outputs/model_comparison_zoomed.png)
 
 ---
 
@@ -193,7 +194,9 @@ gender-classification-ai/
 │   └── voice_synthetic.csv        # CTGAN-generated dataset (D2)
 │
 ├── 📊 outputs/
-│   └── results.png                # Confusion matrix + ROC + model comparison
+│   ├── evaluation_plots.png                  
+│   └── model_comparison_zoomed.png
+│   └── model_evaluation_enhanced.png          # Confusion matrix + ROC + model comparison
 │
 ├── requirements.txt
 ├── README.md
